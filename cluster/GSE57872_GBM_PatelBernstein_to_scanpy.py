@@ -18,7 +18,7 @@ import numpy as np
 
 
 # read the expression matrix
-exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/human/GSE57872_GBM_PatelBernstein/GSE57872_genelevel_tpm.tsv")
+exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/primary/human/GSE57872_GBM_PatelBernstein/GSE57872_genelevel_counts.tsv")
 
 # transpose into genes as columns (vars), samples / cells as rows (obs)
 exprMatrix = exprMatrix.T
@@ -36,7 +36,7 @@ exprMatrix.var.index
 
 
 # read the metadata
-meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/human/GSE57872_GBM_PatelBernstein/metadata_GSE57872_GBM_PatelBernstein.tsv"
+meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/primary/human/GSE57872_GBM_PatelBernstein/metadata_GSE57872_GBM_PatelBernstein.tsv"
                      ,sep = "\t", header=0, index_col=0)
 
 print(meta_df.shape)
@@ -64,7 +64,7 @@ print(exprMatrix)
 
 
 # write scanpy object to file
-exprMatrix.write("/projects/sysbio/users/cellAtlas/scanpyObjects/GSE57872_GBM_PatelBernstein.h5ad")
+exprMatrix.write("/projects/sysbio/users/cellAtlas/data/scanpyObj/GSE57872_GBM_PatelBernstein.h5ad")
 
 
 # In[ ]:

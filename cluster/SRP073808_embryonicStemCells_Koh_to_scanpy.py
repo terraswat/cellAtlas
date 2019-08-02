@@ -18,7 +18,7 @@ import numpy as np
 
 
 # read the expression matrix
-exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/human/SRP073808_embryonicStemCells_Koh/SRP073808_genelevel_tpm.tsv")
+exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/primary/human/SRP073808_embryonicStemCells_Koh/SRP073808_genelevel_counts.tsv")
 
 # transpose into genes as columns (vars), samples / cells as rows (obs)
 exprMatrix = exprMatrix.T
@@ -36,7 +36,7 @@ exprMatrix.obs.index
 
 
 # read the metadata
-meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/human/SRP073808_embryonicStemCells_Koh/SraRunTable.txt"
+meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/primary/human/SRP073808_embryonicStemCells_Koh/SraRunTable.txt"
                      ,sep = "\t", header=0, index_col=11)
 
 print(meta_df.shape)
@@ -66,7 +66,7 @@ print(exprMatrix)
 
 
 # write scanpy object to file
-exprMatrix.write("/projects/sysbio/users/cellAtlas/scanpyObjects/SRP073808_embryonicStemCells_Koh.h5ad")
+exprMatrix.write("/projects/sysbio/users/cellAtlas/data/scanpyObj/SRP073808_embryonicStemCells_Koh.h5ad")
 
 
 # In[ ]:

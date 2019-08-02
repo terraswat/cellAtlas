@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-export PYENV=/projects/sysbio/users/cellAtlas/env
 export LOCALPY_BIN=/soe/swat/packages/localpy/bin
-export SANDBOX=/soe/swat/cellAtlas
+export SANDBOX=/projects/sysbio/users/cellAtlas
+export PYENV=$SANDBOX/env
 
 # Start off pointing to only the newly installed python to minimize path
 # problems/confusion
@@ -27,9 +27,6 @@ cd $SANDBOX
 # Activate the python environment and install the requirements.
 source $PYENV/bin/activate # this is not working for some reason
 #python3 -m pip install scanpy
-#pip install -r $HEXCALC/build/requirements.txt
-
-echo
-echo 'python3:'; which python3
+pip install -r $SANDBOX/build/requirements.txt
 
 

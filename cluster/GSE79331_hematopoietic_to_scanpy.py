@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 import glob
@@ -14,23 +14,23 @@ import numpy as np
 #import tables
 
 
-# In[3]:
+# In[2]:
 
 
 # read the expression matrix
-exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/human/GSE79331_hematopoietic/GSE79331_normalized_0s.tsv")
+exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/human/GSE79331_hematopoietic/GSE79331_normalized_flipped.tsv")
 
 print(exprMatrix.shape)
 
 
-# In[4]:
+# In[3]:
 
 
 exprMatrix.obs.index
 #exprMatrix.var.index
 
 
-# In[6]:
+# In[4]:
 
 
 # read the metadata
@@ -47,7 +47,7 @@ print(meta_df.shape)
 print(set(meta_df.index == exprMatrix.obs.index))
 
 
-# In[7]:
+# In[5]:
 
 
 # save metadata in scanpy object's obs dataframe
@@ -58,7 +58,7 @@ for col in meta_df.columns:
 print(exprMatrix)
 
 
-# In[8]:
+# In[6]:
 
 
 # write scanpy object to file

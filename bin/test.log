@@ -1,0 +1,45 @@
+EMTAB3929_preimplantation_embryos_clustered.h5ad
+0     273
+1     164
+2     160
+3     158
+4     157
+5     120
+6     115
+7     109
+8      82
+9      57
+10     50
+11     48
+12     36
+Name: louvain, dtype: int64
+number of genes is 3500
+number of genes unexpressed is 0
+computing magic for cluster_0
+writing output
+number of genes is 3500
+number of genes unexpressed is 0
+computing magic for cluster_1
+writing output
+number of genes is 3500
+number of genes unexpressed is 0
+computing magic for cluster_2
+writing output
+number of genes is 3500
+number of genes unexpressed is 0
+computing magic for cluster_3
+GSE52529-GPL11154_myoblasts_Trapnell_clustered.h5ad
+GSE52529-GPL16791_myoblasts_Trapnell_clustered.h5ad
+GSE57872_GBM_PatelBernstein_clustered.h5ad
+GSE63818_primordial_germ_cells_Guo_clustered.h5ad
+GSE64016_H1andFUCCI_Leng_clustered.h5ad
+GSE79102_myeloproloferative_disease_Kiselev_clustered.h5ad
+GSE81076-GPL16791_pancreas_Grun_clustered.h5ad
+GSE81076-GPL18573_pancreas_Grun_clustered.h5ad
+GSE84465_GBM_DarmanisQuake_clustered.h5ad
+ica_bone_marrow_clustered.h5ad
+ica_cord_blood_clustered.h5ad
+mouse_tabulaMuris_droplet_clustered.h5ad
+mouse_tabulaMuris_facs_clustered.h5ad
+quakeBrainGeo1_clustered.h5ad
+SRP073808_embryonicStemCells_Koh_clustered.h5ad

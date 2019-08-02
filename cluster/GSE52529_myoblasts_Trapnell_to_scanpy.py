@@ -19,14 +19,14 @@ import numpy as np
 
 # run once for each platform ID
 platform_id = "GPL11154"
-#platform_id = "GPL16791"
+platform_id = "GPL16791"
 
 
 # In[11]:
 
 
 # read the expression matrix
-exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/human/GSE52529_myoblasts_Trapnell/GSE52529-"+platform_id+"_genelevel_tpm.tsv")
+exprMatrix = sc.read("/projects/sysbio/users/cellAtlas/data/primary/human/GSE52529_myoblasts_Trapnell/GSE52529-"+platform_id+"_genelevel_counts.tsv")
 
 # transpose into genes as columns (vars), samples / cells as rows (obs)
 exprMatrix = exprMatrix.T
@@ -44,7 +44,7 @@ exprMatrix.obs.index
 
 
 # read the metadata
-meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/human/GSE52529_myoblasts_Trapnell/GSE52529-"+platform_id+"_metadata.tsv"
+meta_df = pd.read_csv("/projects/sysbio/users/cellAtlas/data/primary/human/GSE52529_myoblasts_Trapnell/GSE52529-"+platform_id+"_metadata.tsv"
                      ,sep = "\t", header=0, index_col=0)
 
 print(meta_df.shape)
@@ -72,7 +72,7 @@ print(exprMatrix)
 
 
 # write scanpy object to file
-exprMatrix.write("/projects/sysbio/users/cellAtlas/scanpyObjects/GSE52529-"+platform_id+"_myoblasts_Trapnell.h5ad")
+exprMatrix.write("/projects/sysbio/users/cellAtlas/data/scanpyObj/GSE52529-"+platform_id+"_myoblasts_Trapnell.h5ad")
 
 
 # In[ ]:

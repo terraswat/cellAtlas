@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[40]:
+# In[1]:
 
 
 import glob
@@ -14,7 +14,7 @@ import numpy as np
 #import tables
 
 
-# In[4]:
+# In[2]:
 
 
 # read the expression matrix
@@ -25,7 +25,7 @@ exprMatrix = exprMatrix.T
 print(exprMatrix.shape)
 
 
-# In[28]:
+# In[3]:
 
 
 # read the metadata
@@ -38,13 +38,7 @@ print(meta_df.shape)
 print(set(meta_df.index == exprMatrix.obs.index))
 
 
-# In[49]:
-
-
-
-
-
-# In[50]:
+# In[4]:
 
 
 # save metadata in scanpy object's obs dataframe
@@ -55,7 +49,7 @@ for col in meta_df.columns:
 print(exprMatrix)
 
 
-# In[51]:
+# In[5]:
 
 
 # write scanpy object to file

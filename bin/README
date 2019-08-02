@@ -1,0 +1,10 @@
+/bin contains all the utility scripts for the expirement.
+
+There is a directory for each on of the tasks.
+
+/attributes - has to do with attribute munging 
+/attributes/enrichment - is the files needed for the enrichment analysis. the main interface
+   is in allByAll* , and the other two *.py are helpers for the all by all stat calc.
+
+...
+

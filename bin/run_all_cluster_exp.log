@@ -1,0 +1,475 @@
+EMTAB3929_preimplantation_embryos_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     273
+1     164
+2     160
+3     158
+4     157
+5     120
+6     115
+7     109
+8      82
+9      57
+10     50
+11     48
+12     36
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3500
+computing magic for cluster_6
+number of genes is 3500
+computing magic for cluster_7
+number of genes is 3500
+computing magic for cluster_8
+number of genes is 3500
+computing magic for cluster_9
+number of genes is 3500
+computing magic for cluster_10
+number of genes is 3500
+computing magic for cluster_11
+number of genes is 3500
+computing magic for cluster_12
+GSE52529-GPL11154_myoblasts_Trapnell_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    24
+1    21
+2    19
+3    15
+4     5
+Name: louvain, dtype: int64
+GSE52529-GPL16791_myoblasts_Trapnell_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    94
+1    66
+2    55
+3    51
+4    22
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+GSE57872_GBM_PatelBernstein_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    188
+1    154
+2    127
+3    111
+4    110
+5     98
+6     76
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3500
+computing magic for cluster_6
+GSE63818_primordial_germ_cells_Guo_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    69
+1    48
+2    44
+3    42
+4    41
+5    35
+6    29
+7    20
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+GSE64016_H1andFUCCI_Leng_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    82
+1    81
+2    79
+3    75
+4    68
+5    43
+6    32
+Name: louvain, dtype: int64
+number of genes is 3501
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+GSE79102_myeloproloferative_disease_Kiselev_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    46
+1    44
+2    30
+3    28
+4    24
+5     9
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+GSE81076-GPL16791_pancreas_Grun_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    120
+1    116
+2     80
+3     59
+4     57
+5     41
+6     38
+7     30
+8     18
+9     16
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3500
+computing magic for cluster_6
+GSE81076-GPL18573_pancreas_Grun_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     180
+1     158
+2     151
+3     132
+4     131
+5     116
+6      60
+7      58
+8      46
+9      41
+10     30
+11     26
+12     18
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3501
+computing magic for cluster_6
+number of genes is 3500
+computing magic for cluster_7
+number of genes is 3500
+computing magic for cluster_8
+number of genes is 3501
+computing magic for cluster_9
+GSE84465_GBM_DarmanisQuake_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     944
+1     705
+2     611
+3     387
+4     177
+5     136
+6     129
+7     110
+8      77
+10     70
+9      70
+11     59
+12     52
+13     36
+14     21
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3500
+computing magic for cluster_6
+number of genes is 3500
+computing magic for cluster_7
+number of genes is 3500
+computing magic for cluster_8
+number of genes is 3500
+computing magic for cluster_10
+number of genes is 3500
+computing magic for cluster_9
+number of genes is 3500
+computing magic for cluster_11
+number of genes is 3503
+computing magic for cluster_12
+number of genes is 3510
+computing magic for cluster_13
+ica_bone_marrow_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     49459
+1     34376
+2     33365
+3     31343
+4     25598
+5     24829
+6     23406
+7     21048
+8     19591
+9     13666
+10    12657
+11    12081
+12    11532
+13    10896
+14     9827
+15     8674
+16     6937
+17     6028
+18     5267
+19     4892
+20     3781
+21     3665
+22     2871
+23     1538
+24      317
+25      171
+26      116
+27       69
+Name: louvain, dtype: int64
+ica_cord_blood_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     60711
+1     35168
+2     34177
+3     32226
+4     24920
+5     24754
+6     23491
+7     22941
+8     19970
+9     19378
+10    15831
+11    13456
+12    11133
+13    11026
+14     9430
+15     9376
+16     4389
+17     3546
+18     3468
+19     2081
+20     1882
+21      646
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+mouse_tabulaMuris_droplet_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     5892
+1     5344
+2     5311
+3     4450
+4     3949
+5     3369
+6     3357
+7     2955
+8     2669
+9     2063
+10    2036
+11    1933
+12    1908
+13    1890
+14    1884
+15    1824
+16    1568
+17    1498
+18    1367
+19    1309
+20    1247
+21    1149
+22    1022
+23     961
+24     941
+25     916
+26     842
+27     829
+28     708
+29     705
+30     618
+31     593
+32     568
+33     482
+34     458
+35     424
+36     324
+37     291
+38     287
+39     117
+40      60
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+mouse_tabulaMuris_facs_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     4170
+1     3537
+2     3012
+3     2879
+4     2851
+5     2709
+6     2707
+7     1825
+8     1712
+9     1615
+10    1576
+11    1375
+12    1294
+13    1284
+14    1125
+15    1096
+16    1096
+17    1050
+18    1048
+19     918
+20     866
+21     824
+22     762
+23     758
+24     749
+25     727
+26     704
+27     685
+28     562
+29     533
+30     522
+31     491
+32     468
+33     439
+34     408
+35     392
+36     379
+37     361
+38     354
+39     351
+40     322
+41     319
+42     315
+43     273
+44     257
+45     252
+46     241
+47     240
+48     236
+49     216
+50     214
+51     179
+52     172
+53     113
+54      74
+55      48
+56      42
+57      33
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+quakeBrainGeo1_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0    90
+1    88
+2    68
+3    60
+4    56
+5    39
+6    33
+7    32
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3504
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3501
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+SRP073808_embryonicStemCells_Koh_clustered.h5ad
+size of the clusters, less than 33 will be filtered out
+0     195
+1      90
+2      76
+3      67
+4      62
+5      45
+6      37
+7      27
+8      24
+9      15
+10     13
+Name: louvain, dtype: int64
+number of genes is 3500
+computing magic for cluster_0
+number of genes is 3500
+computing magic for cluster_1
+number of genes is 3500
+computing magic for cluster_2
+number of genes is 3500
+computing magic for cluster_3
+number of genes is 3500
+computing magic for cluster_4
+number of genes is 3500
+computing magic for cluster_5
+number of genes is 3500
+computing magic for cluster_6

@@ -1,2 +1,10 @@
 This directory contains scripts and info to build python3, a python virtual
 environment, and maybe more.
+
+To add a package:
+-----------------
+cd /projects/sysbio/users/cellAtlas/build
+source ../env
+pip install <package-name>
+pip freeze --local > requirements.txt
+

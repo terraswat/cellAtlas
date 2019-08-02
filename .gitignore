@@ -1,4 +1,10 @@
 data
 env
 */*.ipynb
+build/tmp
+*/.ipynb_checkpoints
+*/__pycache__
+*/logs
+dataProtect
+plots
 
