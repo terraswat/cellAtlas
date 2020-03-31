@@ -1,7 +1,7 @@
 anndata==0.6.11
 autograd==1.2
 backcall==0.1.0
-bleach==3.1.0
+bleach==3.1.4
 Bottleneck==1.2.1
 cffi==1.11.5
 cmake==3.12.0
