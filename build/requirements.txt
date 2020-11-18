@@ -39,7 +39,7 @@ natsort==5.4.1
 nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.2
-notebook==5.7.4
+notebook==6.1.5
 numba==0.40.1
 numexpr==2.6.8
 numpy==1.14.6
